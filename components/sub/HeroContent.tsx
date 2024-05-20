@@ -46,7 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a fullstack developer with a passion for creating dynamic and responsive web applications. With expertise in both front-end and back-end technologies, I excel at building seamless and user-friendly digital experiences. I&apos;m always eager to learn new technologies and take on new challenges. Let&apos;s work together to bring your ideas to life!
+          My name is Pascal Schaer and I&apos;m a fullstack developer with a passion for creating dynamic and responsive web applications. With expertise in both front-end and back-end technologies, I excel at building seamless and user-friendly digital experiences. I&apos;m always eager to learn new technologies and take on new challenges. Let&apos;s work together to bring your ideas to life!
         </motion.p>
         <motion.p
           variants={slideInFromLeft(1)}
