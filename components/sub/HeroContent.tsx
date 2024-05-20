@@ -27,19 +27,19 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
-           <div className="w-[175px] h-[175px] mt-4">
-        <Image
-          src='/portrait3.png'
-          alt='portrait'
-          width={200}
-          height={200}
-          className="w-full h-full object-cover rounded-full border-4 border-gradient-to-r from-purple-500 to-cyan-500"
-        />
-      </div>
-            <span>
-          Providing
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> the best </span>
-          project experience
+          <div className="w-[175px] h-[175px] mt-4">
+            <Image
+              src='/portrait3.png'
+              alt='portrait'
+              width={200}
+              height={200}
+              className="w-full h-full object-cover rounded-full border-4 border-gradient-to-r from-purple-500 to-cyan-500"
+            />
+          </div>
+          <span>
+            Providing
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> the best </span>
+            project experience
           </span>
         </motion.div>
         <motion.p
@@ -48,35 +48,27 @@ const HeroContent = () => {
         >
           I&apos;m a fullstack developer with a passion for creating dynamic and responsive web applications. With expertise in both front-end and back-end technologies, I excel at building seamless and user-friendly digital experiences. I&apos;m always eager to learn new technologies and take on new challenges. Let&apos;s work together to bring your ideas to life!
         </motion.p>
-        {/* <motion.a
-        variants={slideInFromLeft(1)}
-        className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        <motion.p
+          variants={slideInFromLeft(1)}
+          className='cursive text-[30px] text-gray-200 mb-10 mt-[10px] text-center'
         >
-            Learn More!
-        </motion.a> */}
+          &quot;The only way to go fast is to go well.&quot; - Robert C. Martin
+        </motion.p>
       </div>
 
       <motion.div
-      variants={slideInFromRight(0.8)}
-      className="w-full h-full flex justify-center items-center"
+        variants={slideInFromRight(0.8)}
+        className="w-full h-full flex justify-center items-center"
       >
         <Image
-        src="/mainIconsdark.svg"
-        alt="work icons"
-        height={650}
-        width={650}
+          src="/mainIconsdark.svg"
+          alt="work icons"
+          height={650}
+          width={650}
         />
-
       </motion.div>
     </motion.div>
   );
 };
 
 export default HeroContent;
-
-{/* <Image
-src="/portrait.png"
-alt="portrait"
-height={650}
-width={650}
-/> */}
