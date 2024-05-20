@@ -31,12 +31,13 @@ const ProjectCard = ({ src, title, description, link }: Props) => {
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-4 py-2 mt-2 bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-semibold rounded-lg hover:opacity-90 cursor-pointer"
+          className="px-10 py-2 mt-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] font-semibold hover:opacity-90 self-center"
         >
-          Visit Live Site
+          Visit Site
         </a>
       </div>
     </div>
+
   );
 };
 

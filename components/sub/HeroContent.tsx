@@ -27,6 +27,15 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
+           <div className="w-[175px] h-[175px] mt-4">
+        <Image
+          src='/portrait3.png'
+          alt='portrait'
+          width={200}
+          height={200}
+          className="w-full h-full object-cover rounded-full border-4 border-gradient-to-r from-purple-500 to-cyan-500"
+        />
+      </div>
             <span>
           Providing
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> the best </span>
@@ -37,9 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a fullstack developer with a passion for creating beautiful
-          and functional websites. I specialize in React, Next.js, and Tailwind
-          CSS.
+          I&apos;m a fullstack developer with a passion for creating dynamic and responsive web applications. With expertise in both front-end and back-end technologies, I excel at building seamless and user-friendly digital experiences. I&apos;m always eager to learn new technologies and take on new challenges. Let&apos;s work together to bring your ideas to life!
         </motion.p>
         {/* <motion.a
         variants={slideInFromLeft(1)}

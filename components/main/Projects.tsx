@@ -15,21 +15,20 @@ const Projects = () => {
           src="/Sumz.png"
           title="Summarize articles with Sumz"
           description="Open-source article summarizer that transforms lengthy articles into clear and concise summaries"
-          link="https://tubular-twilight-eafd3c.netlify.app/" // Add your deployed link here
+          link="https://tubular-twilight-eafd3c.netlify.app/"
         />
         <ProjectCard
           src="/Evently.png"
           title="Host, Connect, Celebrate: Your Events, Our Platform!"
           description="A comprehensive web application for event organization, akin to platforms like Eventbrite and Meetup, featuring robust user authentication, sophisticated event management capabilities, advanced search and filtering options, categorized event listings, seamless checkout, and secure payment processing."
-          link="https://evently-nqke64v6t-pascalschaers-projects.vercel.app/#events" // Add your deployed link here
+          link="https://evently-nqke64v6t-pascalschaers-projects.vercel.app/#events"
         />
         <ProjectCard
           src="/saturday.png"
           title="Saturday Neon"
           description="At Saturday Neon, we're passionate about illuminating your gameday experience. We create one-of-a-kind LED neon signs of your university's most famous athletic logos and designs."
-          link="https://saturdayneon.com/" // Add your deployed link here
+          link="https://saturdayneon.com/"
         />
-
       </div>
     </div>
   );
