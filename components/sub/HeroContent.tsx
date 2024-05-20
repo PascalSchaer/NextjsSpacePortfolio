@@ -52,7 +52,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className='cursive text-[30px] text-gray-200 mb-10 mt-[10px] text-center'
         >
-          &quot;The only way to go fast is to go well.&quot; - Robert C. Martin
+          &quot;The only way to go fast is to go well.&quot;
         </motion.p>
       </div>
 
