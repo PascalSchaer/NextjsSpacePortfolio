@@ -4,6 +4,7 @@ import Experience from "@/components/main/Experience";
 import Projects from "@/components/main/Projects";
 import Form from "@/components/main/Form";
 import Education from "@/components/main/Education";
+import CopyEmailButton from "@/components/main/CopyEmailButton";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <Experience />
         <Education />
         <Skills />
+        {/* <CopyEmailButton /> */}
         <Projects />
         <Form />
       </div>
